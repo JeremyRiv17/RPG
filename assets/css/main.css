@@ -1,0 +1,21 @@
+body{background-image:url(../images/kale-salad.jpg);
+}
+.container{color:whitesmoke;
+}
+#attackBtn{color:black;
+    size:40px
+    
+}
+.characterBox{ text-align:center;
+    background-color:lightgreen;
+    border-color: antiquewhite;
+    border-width: 50px;
+    padding:20px;
+    width:50;
+    height:220px;
+    margin:10px;
+}
+.character{width:150px;
+    height:150px;
+}
+

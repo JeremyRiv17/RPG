@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/reset.css"  href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css"  href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+<body>
+<div class="container">
+    
+    <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4"><h1>RPG Game</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4"></div>
+    </div>
+     <h2>Your Character</h2>
+    <div class="row">
+        
+        <div class="col-md-2 characterBox" id="adcBox">
+            <p>Attack Damage Carry</p>
+            <img src=assets/images/abstract1.jpg class=character id=adc>
+            <p id="adcHealth"></p>
+        </div>
+        <div class="col-md-2 characterBox" id="tankBox">
+            <p>Tank</p>
+            <img src=assets/images/abstract2.jpg class=character id=tank>
+            <p id="tankHealth"></p>
+        </div>
+        <div class="col-md-2 characterBox" id="mageBox">
+            <p>Mage</p>
+            <img src=assets/images/abstract3.jpg class=character id=mage>
+            <p id="mageHealth"></p>
+        </div>   
+        <div class="col-md-2 characterBox" id="supportBox">
+            <p>Support</p>
+            <img src=assets/images/abstract4.jpg class=character id=support>
+            <p id="supportHealth"></p>
+        </div> 
+    </div>  
+    <div class="row">
+    </div>
+    <div class="row">
+        <h1>Enemies Availble to Attack!</h1> 
+        <div class="col-md-12 eniBox"></div>
+    </div>
+    <div class="row">
+        <h2>Fight Section</h2><br>
+        <div class="col-md-12 arena"></div>
+        <button id="attackBtn">Attack</button>
+        <p id="stats"></p>
+        <p id="stats2"></p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row"></div>
+</div>
+    
+</body>
+</html>
